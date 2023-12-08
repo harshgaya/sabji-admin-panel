@@ -1,0 +1,93 @@
+name: admin_panel_ecommerce
+description: Admin Panel for Ecommerce App
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+  font_awesome_flutter: ^9.2.0
+  list_tile_switch: ^1.0.0
+  provider: ^6.0.2
+  shared_preferences: ^2.0.12
+  backdrop: ^0.7.1
+  carousel_pro_nullsafety: ^1.0.2
+  card_swiper: ^2.0.1
+  cached_network_image: ^3.2.0
+  image_picker: ^0.8.4+10
+  firebase_auth: ^4.1.5
+  firebase_core: ^2.4.0
+  cloud_firestore: ^4.1.0
+  firebase_storage: ^11.0.1
+  fluttertoast: ^8.0.9
+  http: ^0.13.4
+  sn_progress_dialog: ^1.0.3
+  easy_sidemenu: ^0.2.0
+  file_picker: ^4.5.1
+  connectivity_plus: ^3.0.2
+  intl: ^0.17.0
+  uuid: ^3.0.6
+  loader_overlay: ^2.1.0
+  flutter_colorpicker: ^1.0.3
+  url_strategy: ^0.2.0
+  firebase_pagination: ^3.0.0
+  flutterfire_ui: ^0.4.3+20
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+  flutter_launcher_icons: ^0.11.0
+  flutter_native_splash: ^2.2.16
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "dev_assets/logo.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "dev_assets/logo.png"
+    background_color: "#ffffff"
+    theme_color: "#ffffff"
+  windows:
+    generate: true
+    image_path: "dev_assets/logo.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "dev_assets/logo.png"
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: "dev_assets/splash.png"
+  color_dark: "#121212"
+  image_dark: "dev_assets/splash.png"
+  android_gravity: fill
+
+  android_12:
+    image: "dev_assets/splash.png"
+    icon_background_color: "#ffffff"
+    image_dark: "dev_assets/splash.png"
+    icon_background_color_dark: "#121212"
+
+  web: false
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - images/
+
